@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Profile</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="profile.html">Profile</a> |
+    <a href="discussion.html">Discussion</a> |
+    <a href="about.html">About</a>
+  </nav>
+  <style>
+  body {
+    background-color: lightblue;
+  }
+</style>
+
+  <h1>Create Your Profile</h1>
+  <form>
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username"><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="location">City, State:</label><br>
+    <input type="text" id="location" name="location"><br><br>
+
+    <label for="genres">Favorite Genres:</label><br>
+    <input type="text" id="genres" name="genres" placeholder="e.g. Fantasy, Romance, Mystery"><br><br>
+
+    <label for="tropes">Favorite Book Tropes:</label><br>
+    <input type="text" id="tropes" name="tropes" placeholder="e.g. Enemies to Lovers, Found Family"><br><br>
+
+    <label for="tbr">Books on Your TBR List:</label><br>
+    <textarea id="tbr" name="tbr" rows="3" cols="40"></textarea><br><br>
+
+    <label for="favorite">All-Time Favorite Book:</label><br>
+    <input type="text" id="favorite" name="favorite"><br><br>
+
+    <label for="leastFavorite">Least Favorite Book:</label><br>
+    <input type="text" id="leastFavorite" name="leastFavorite"><br><br>
+
+    <label for="bio">Tell us a little about your reading style:</label><br>
+    <textarea id="bio" name="bio" rows="4" cols="40"></textarea><br><br>
+
+    <input type="button" value="Submit" onclick="alert('Thank you and Happy Reading!!!')">
+  </form>
+ </body>
+</html>
